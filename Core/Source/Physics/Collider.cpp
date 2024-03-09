@@ -1,6 +1,7 @@
 #include "Collider.h"
 #include <iostream>
-
+#include "defines.h"
+#include "Vec2.h"
 Collider::Collider(Vec2 theVelocity, Vec2 thePosition, bool theGravityEnabled, bool theCollisionEnabled, Shape theShape)
 	: PhysicsObject(theVelocity, thePosition, theGravityEnabled, theCollisionEnabled), m_Shape(theShape) {}
 
