@@ -20,7 +20,7 @@ public:
 	 * @param  Collider theSecond
 	 * @param  f32 theCoefficientOfRestitution
 	 */
-	void ResolveCollision(Collider& theFirst, Collider& theSecond, f32 theCoefficientOfRestitution=1.0f);
+	static void ResolveCollision(Collider& theFirst, Collider& theSecond, f32 theCoefficientOfRestitution=1.0f);
 
     Shape m_Shape;
 private:

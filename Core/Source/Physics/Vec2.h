@@ -5,7 +5,6 @@
 
 class Vec2
 {
-    private:
 
     public:
         f32 m_X;

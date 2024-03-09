@@ -11,7 +11,7 @@ namespace Cybug {
     public:
         class DoubleSubscript
         {
-        private:
+        public:
             size_t m_i;
             Matrix<T>& m_array2d;
 
@@ -70,7 +70,7 @@ namespace Cybug {
          */
         inline T At(size_t theX, size_t theY) const;
 
-    private:
+    public:
         size_t m_X, m_Y;
         size_t m_Size;
         T* m_Data;

@@ -1,13 +1,12 @@
 #pragma once
 #include "defines.h"
-
 #include "Physics/Vec2.h"
 
 class PhysicsObject
-{
+{	public:
 	PhysicsObject(Vec2 theVelocity, Vec2 thePosition,
-            bool theGravityEnabled, bool theCollisionEnabled)
-		: m_Velocity(theVelocity), m_Position(thePosition), m_GravityEnabled(theGravityEnabled), m_CollisionEnabled(theCollisionEnabled) {}
+            bool theGravityEnabled, bool theCollisionEnabled): 
+				m_Velocity(theVelocity), m_Position(thePosition), m_GravityEnabled(theGravityEnabled), m_CollisionEnabled(theCollisionEnabled) {}
 	/**
 	 * 
 	 * @param  Vec2 theVelocity 
